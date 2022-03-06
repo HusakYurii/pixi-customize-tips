@@ -87,7 +87,7 @@ The application dependencies which are described above can be extended with the 
 But empty sprites are not what we need, right?. You can use Containers to group content instead. To create a sprite with a texture, we need to load a picture and wrap that image within a Texture. Then you pass the texture to the sprite.
 In both examples below a texture will be created which loads a picture. In other words there will be a “GET” request  to fetch a picture, so you have to make sure you host your files.
 
-```html
+```javascript
       // create a texture for sprite
         const logoTexture = PIXI.Texture.from("./path_to_your_image.png");
         const icon = new PIXI.Sprite(logoTexture);
